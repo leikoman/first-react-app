@@ -1,0 +1,8 @@
+.logo {
+    grid-area: logo;
+    background-color: rgb(230, 252, 221);
+  }
+  
+  .logo img{
+    width: 50px;
+  }

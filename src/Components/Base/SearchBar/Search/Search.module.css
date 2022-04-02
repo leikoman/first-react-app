@@ -1,0 +1,15 @@
+
+.search {
+    grid-area: search;
+    background-color: rgb(230, 252, 221);
+    color: -internal-light-dark(white, white);
+    padding: 1px 6px;
+    padding-top: 10px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    border-width: 2px;
+    border-style: hidden;
+    border-color: -internal-light-dark(white, white);
+    border-image: none;
+  }

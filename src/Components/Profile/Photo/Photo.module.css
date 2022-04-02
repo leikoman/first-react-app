@@ -1,0 +1,21 @@
+.header {
+    grid-area: photo;
+    background-color: rgb(230, 252, 221);
+  }
+  
+  .photoBorder {
+    width: 345px;
+    height: 350px;
+    background-color: rgb(230, 252, 221);
+  }
+  
+  .photoImage {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
