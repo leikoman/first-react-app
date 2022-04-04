@@ -1,4 +1,8 @@
 .bio {
     grid-area: bio;
     background-color: rgb(230, 252, 221);
+    display: grid;
+    grid-template-columns: "10% 90%";
+    grid-template-areas: 
+    "photo aboutme";
   }

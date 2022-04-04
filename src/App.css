@@ -1,12 +1,16 @@
 .app-wrapper {
   margin: 0 auto;
   width: auto;
-  height: auto;
+  height: 937px;
   display: grid;
   grid-template-areas: 
   "logo search-bar"
-  "photo bio"
   "n c";
-  grid-template-rows: 3% 17% 80%;
-  grid-template-columns: 18% 82%;
+  grid-template-rows: 6% 94%;
+  grid-template-columns: 3% 97%;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: rgb(230, 252, 221);
 }
