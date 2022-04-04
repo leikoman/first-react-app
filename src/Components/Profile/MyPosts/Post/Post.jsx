@@ -4,12 +4,12 @@ import Like from "./Like/Like";
 import css from './Post.module.css';
 import Text from "./Text/Text";
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={css.post}>
             <Ava></Ava>
-            <Text></Text>
-            <Like></Like>
+            <Text message={props.message}></Text>
+            <Like count={props.count}></Like>
         </div>
     );
 }

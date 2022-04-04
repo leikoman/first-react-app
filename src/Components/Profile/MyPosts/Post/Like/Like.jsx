@@ -1,11 +1,11 @@
 import React from "react";
 import css from './Like.module.css';
 
-const Like = () => {
+const Like = (props) => {
     return (
     <div className={css.like}>
         <img alt="" src='./././././post-like.jpg'></img>
-        1234
+        {props.count}
     </div>)
 }
 
