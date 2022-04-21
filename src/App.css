@@ -7,10 +7,10 @@
   "logo search-bar"
   "n c";
   grid-template-rows: 6% 94%;
-  grid-template-columns: 3% 97%;
+  grid-template-columns: 5% 95%;
 }
 
 .app-wrapper-content {
-  grid-area: c;
-  background-color: rgb(230, 252, 221);
+    grid-area: c;
+    background-color: rgb(230, 252, 221);
 }

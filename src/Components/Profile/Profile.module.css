@@ -1,8 +1,7 @@
 .content {
     display: grid;
-    grid-template-columns: "100%";
     grid-template-rows: "15% 85%";
-    grid-template-areas: 
-    "bio"
-    "myposts";
-  }
+    grid-template-areas:
+        "bio"
+        "myposts";
+}
