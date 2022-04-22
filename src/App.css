@@ -1,7 +1,7 @@
 .app-wrapper {
   margin: 0 auto;
   width: auto;
-  height: 937px;
+  height: auto;
   display: grid;
   grid-template-areas: 
   "logo search-bar"
