@@ -4,6 +4,7 @@ import css from './Dialogs.module.css';
 const Dialogs = () => {
     return (
         <div className={css}>
+            dialogs brrr
         </div>
     );
 }
