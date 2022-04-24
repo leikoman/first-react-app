@@ -5,12 +5,8 @@
     padding-top: 20px;
 }
 
-.item {
-    color: green;
-}
-
-.active {
-    color: red;
+.item a.activeLink {
+    display: none;
 }
 
 .item img{
