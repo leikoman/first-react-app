@@ -1,0 +1,24 @@
+.DialogsPage {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.Dialogs{
+
+}
+
+.Dialogs .Dialog{
+
+}
+
+.Dialogs .ActiveDialog{
+    font-weight: bold;
+}
+
+.Messages{
+
+}
+
+.Messages .Message{
+
+}
